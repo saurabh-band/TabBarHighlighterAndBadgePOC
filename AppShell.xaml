@@ -10,19 +10,19 @@
 
     <TabBar>
         <Tab Title="Home"
-             Icon="dotnet_bot.png">
+             Icon="home.png">
             <ShellContent ContentTemplate="{DataTemplate view:Home}"/>
         </Tab>
-        <Tab Title="Home"
-             Icon="dotnet_bot.png">
+        <Tab Title="Company"
+             Icon="baggage.png">
             <ShellContent ContentTemplate="{DataTemplate view:Company}"/>
         </Tab>
-        <Tab Title="Home"
-             Icon="dotnet_bot.png">
+        <Tab Title="Notification"
+             Icon="bell.png">
             <ShellContent ContentTemplate="{DataTemplate view:Notifications}"/>
         </Tab>
-        <Tab Title="Home"
-             Icon="dotnet_bot.png">
+        <Tab Title="My Details"
+             Icon="person.png">
             <ShellContent ContentTemplate="{DataTemplate view:MyDetails}"/>
         </Tab>
     </TabBar>
